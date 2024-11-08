@@ -1,0 +1,32 @@
+.btn{
+    background-color: white;
+    border: 2px solid black;
+    padding: 1.6rem 5.6rem;
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.btn-bottom{
+    display: none;
+}
+
+.btn-top{
+    display: block;
+    text-align: center;
+}
+
+@media (max-width:375px) {
+    .btn-bottom{
+        display: block;
+        margin: 4rem;
+        text-align: center;
+    }
+    .btn-top{
+        display: none;
+    }
+}

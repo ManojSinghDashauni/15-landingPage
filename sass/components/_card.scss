@@ -1,0 +1,28 @@
+.card{
+    position: relative;
+    flex: 1 0 25rem;
+    &__img-box{
+    }
+    &__img{
+        width: 100%;
+        object-fit: cover;
+    }
+    &__text{
+        position: absolute;
+        left: 4rem;
+        bottom: 4rem;
+    }
+}
+
+
+@media (max-width:375px) {
+    .card{
+        flex: 1;
+        &__text{
+            left: 2rem;
+            bottom: 2rem;
+        }
+    }
+}
+
+
